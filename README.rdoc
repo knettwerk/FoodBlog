@@ -16,6 +16,13 @@ Testing specs for Recipes:
 - description must be between 20 and 500 characters
 - chef_id must be present
 
+Testing specs for Chef:
+
+- name must be present
+- name must be more than 3 characters and less than 40 characters
+- email must be present
+- email must be unique (login purposes)
+- email must be valid
 
 * ...
 
